@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="shorcut icon" href="img/logo.png" type="image/x-icon" >
+
+
+</head>
+<body>
+
+
+
+  <header class="container-fluid  dash">
+
+    <nav class="navbar navbar-expand-sm navbar-light container">
+      <a class="navbar-brand font-weight-bold" href="dashboard.html">Job Placement</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        
+         
+        <form class="form-inline my-2 my-lg-0 ml-auto">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-warning my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+
+    
+
+  </header>
+
+
+  <section class="container-fluid main">
+
+    <div class="container">
+
+      <div class="row">
+
+        <div class="col-lg-8" style="height: 500px;overflow:auto">
+
+        <h2 class="text-center sticky-top p-4 reg font-weight-bold" >Job Circular </h2>
+          
+
+          <table class="table">
+
+            <tr>
+
+              <div class="card text-center mb-2">
+                <div class="card-header">
+                  Featured
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Special title treatment</h5>
+                  <p class="card-text">With supporting text below as a natural lead-in to additional content.
+
+                    <span id="dots">...</span> <span id="more">
+                      With supporting text below as a natural lead-in to additional content.
+                      With supporting text below as a natural lead-in to additional content.
+                    </span></p>
+                    <button class="btn btn-info" id="read_more">Read More</button>
+                </div>
+                <div class="card-footer text-muted">
+                  2 days ago
+                </div>
+              </div>
+
+              
+            </tr>
+
+            <tr>
+
+              <div class="card text-center mb-2">
+                <div class="card-header">
+                  Featured
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Special title treatment</h5>
+                  <p class="card-text">With supporting text below as a natural lead-in to additional content.
+
+                    <span id="dots">...</span> <span id="more">
+                      With supporting text below as a natural lead-in to additional content.
+                      
+                    </span></p>
+                    <button class="btn btn-info" id="read_more">Read More</button>
+                </div>
+                <div class="card-footer text-muted">
+                  2 days ago
+                </div>
+              </div>
+
+              
+            </tr>
+
+              
+             
+            </tbody>
+
+         
+          </table>
+
+        </div>
+
+        
+
+
+         
+
+
+       
+
+        <div class="col-lg-4 text-center mt-3">
+
+
+
+
+          <div class="card reg" style="width:100%">
+            <img class="card-img-top" src="img/reg.png" alt="Card image cap">
+            <div class="card-body">
+              <h1 class="card-title font-weight-bold">Registration</h1>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="index.html" class="btn btn-primary">Click Here</a>
+            </div>
+          </div>
+
+         
+
+
+        </div>
+      </div>
+
+    </div>
+
+  </section>  
+
+
+  <footer class="ff">
+
+    <h4 class="text-center py-3">@Copyright 2020</h4>
+    
+   </footer>
+
+
+    
+
+       
+
+ <script src="js/jquery.min.js"></script>
+ <script src="js/popper.js"></script>
+ <script src="js/bootstrap.min.js"></script>
+
+
+ <script type="text/javascript">
+
+
+  $(document).ready(function(){
+
+
+    $('#read_more').click(function(){
+
+
+      if($(this).html() == 'Read More'){
+
+        $('#dots').hide();
+        $('#more').show();
+        $(this).html('Read Less');
+      }
+
+      else{
+
+       $('#dots').show();
+        $('#more').hide();
+        $(this).html('Read More');
+      }
+
+    });
+
+  });
+
+
+ 
+ </script>
+
+
+    
+</body>
+</html>

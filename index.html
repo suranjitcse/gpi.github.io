@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="shorcut icon" href="img/logo.png" type="image/x-icon" >
+
+
+</head>
+<body>
+
+
+    <header class="container head">
+
+      <h2 class="text-center py-3">Student Information</h2>
+
+      </header>
+
+
+
+        
+      <form class="py-5 container form">
+
+
+    <!--Name Section Start -->
+          
+
+     <div class="form-group">
+
+        <label for="name" class="font"> Name <span style="color:red">*</span> </label>
+
+        <input class="form-control" type="text" placeholder="Type Here Your Name" name="name" required>
+
+   </div>
+
+
+     <!--Name Section End -->
+
+
+
+       <!--Date of Birth Section Start -->
+
+   <div class="form-group mt-4">
+
+    <label for="dob" class="font"> Date of Birth <span style="color:red">*</span> </label>
+
+    <input class="form-control" type="date" name="dob" required>
+
+   </div>
+
+    <!--Date of Birth Section End -->
+
+
+
+     <!--Fathers Name Section Start -->
+
+
+   <div class="form-group mt-4">
+
+    <label for="father name" class="font"> Father's Name <span style="color:red">*</span> </label>
+
+    <input class="form-control" type="text" placeholder="Type Here Your Father Name" name="father" required>
+
+   </div>
+
+
+    <!--Fathers Name Section End -->
+
+
+
+
+
+     <!--Mothers Name Section Start -->
+
+
+   <div class="form-group mt-4">
+
+    <label for="mother name" class="font"> Mother's Name <span style="color:red">*</span> </label>
+
+    <input class="form-control" type="text" placeholder="Type Here Your Mother Name" name="mother" required>
+
+   </div>
+
+    <!--Mothers Name Section End -->
+
+
+    <!--Permanent Address Section Start -->
+
+   <div class="form-group mt-4">
+
+    <label for="permanent address" class="font"> Permanent Address <span style="color:red">*</span></label>
+        
+        <div class="form-row mt-3 all">
+          
+         
+          <div class="form-group col-md-4">
+            <label for="village">1. Village/House No <span style="color:red">*</span></label>
+            <input type="text" class="form-control" name="village" required> 
+          </div>
+
+          <div class="form-group col-md-4">
+            <label for="road">2. Road No <span style="color:red">*</span></label>
+            <input type="text" class="form-control" name="road" required>
+          </div>
+
+
+          <div class="form-group col-md-4">
+            <label for="post office">3. Post Office <span style="color:red">*</span></label>
+            <input type="text" class="form-control" name="post" required>
+          </div>
+
+        </div>
+
+        <div class="form-row">
+
+          <div class="form-group col-md-6">
+            <label for="inputState">4. Upazilla <span style="color:red">*</span></label>
+            <input type="text" class="form-control" name="upazilla" required>
+          </div>
+
+          <div class="form-group col-md-6">
+            <label for="district">5. District <span style="color:red">*</span></label>
+            <select class="form-control" name="district" required>
+              <option selected>Choose...</option>
+              <option>Barguna</option>
+              <option>Barisal</option>
+              <option>Bhola</option>
+              <option>Jhalokati</option>
+              <option>Patuakhali</option>
+              <option>Pirojpur</option>
+              <option>Bandarban</option>
+              <option>Brahmanbaria</option>
+              <option>Chandpur</option>
+              <option>Chittagong</option>
+              <option>Comilla</option>
+              <option>Cox's Bazar</option>
+              <option>Feni</option>
+              <option>Khagrachhari</option>
+              <option>Laxshmipur</option>
+              <option>Noakhali</option>
+              <option>Rangamati</option>
+              <option>Dhaka</option>
+              <option>Faridpur</option>
+              <option>Gazipur</option>
+              <option>Gopalganj</option>
+              <option>Kishoreganj</option>
+              <option>Madaripur</option>
+              <option>Manikganj</option>
+              <option>Munshiganj</option>
+              <option>Narayanganj</option>
+              <option>Narsingdi</option>
+              <option>Rajbari</option>
+              <option>Shariatpur</option>
+              <option>Tangail</option>
+              <option>Bagerhat</option>
+              <option>Chuadanga</option>
+              <option>Jessore</option>
+              <option>Jhenaidha</option>
+              <option>Khulna</option>
+              <option>Magura</option>
+              <option>Meherpur</option>
+              <option>Narail</option>
+              <option>Satkhira</option>
+              <option>Jamalpur</option>
+              <option>Mymenshingh</option>
+              <option>Netrokona</option>
+              <option>Sherpur</option>
+              <option>Bogra</option>
+              <option>Joypurhat</option>
+              <option>Naogaon</option>
+              <option>Natore</option>
+              <option>Chapainawabganj</option>
+              <option>Pabna</option>
+              <option>Rajshahi</option>
+              <option>Sirajganj</option>
+              <option>Dinajpur</option>
+              <option>Gaibandha</option>
+              <option>Kurigram</option>
+              <option>Lalmonirhat</option>
+              <option>Nilphamari</option>
+              <option>Panchagarh</option>
+              <option>Rangpur</option>
+              <option>Thakurgaon</option>
+              <option>Habiganj</option>
+              <option>Moulovibazar</option>
+              <option>Sunamganj</option>
+              <option>Sylhet</option>
+              
+
+
+            </select>
+          </div>
+
+        </div>
+        
+    
+
+   </div>
+
+   <!--Permanent Address Section End -->
+
+
+
+<!-- Student Mobile Number Section Start -->
+   
+   <div class="form-group mt-4">
+
+    <label for="student_mobile" class="font"> Student Mobile No <span style="color:red">*</span> </label>
+
+    <input class="form-control" type="text" placeholder="Type Here Your Student Mobile Number" name="std_phn" required>
+
+   </div>
+
+
+<!-- Student Mobile Number Section End -->
+
+
+
+<!-- Guardian Mobile Number Section Start -->
+
+
+   <div class="form-group mt-4">
+
+    <label for="guardians" class="font"> Gurardian's Mobile No <span style="color:red">*</span> </label>
+
+    <input class="form-control" type="text" placeholder="Type Here Your Gurardian's Mobile Number" name="gur_phn" required>
+
+   </div>
+
+   <!-- Guardian Mobile Number Section End -->
+
+
+
+
+<!-- Email Section Start -->
+
+   <div class="form-group mt-4">
+
+    <label for="email" class="font"> Email <span style="color:red">*</span> </label>
+
+    <input class="form-control" type="email" placeholder="Type Here Your Email" name="email" required>
+
+   </div>
+
+   <!-- Email Section End -->
+
+
+
+
+
+  <!--Trade/Technology Section Start -->
+
+
+  <div class="form-group mt-4">
+    <label for="trade" class="font">Trade/Technology <span style="color:red">*</span></label>
+    <select class="form-control" name="trade">
+      <option selected>Choose...</option>
+      <option>Computer Technology</option>
+      <option>Electrical Technology</option>
+      <option>Electronics Technology</option>
+      <option>RAC Technology</option>
+      <option>Food Technology</option>
+
+    </select>
+  </div>
+
+
+  <!--Trade/Technology Section End -->
+
+
+
+  <!--Session Section Start -->
+
+  <div class="form-group mt-4">
+
+    <label for="session" class="font"> Session <span style="color:red">*</span> </label>
+
+    <input class="form-control" type="text" placeholder="Type Here Your Session" name="session" required>
+
+   </div>
+
+   <!--Session Section End -->
+
+
+
+   <!--Duration  Section Start -->
+
+   <div class="form-group mt-4">
+
+    <label for="duration" class="font"> Duration <span style="color:red">*</span></label>
+
+    <input class="form-control" type="text" placeholder="Type Here Your Duration" name="duration" required>
+
+   </div>
+
+   <!--Duration Section End -->
+
+
+
+<!--Roll Section End -->
+   <div class="form-group mt-4">
+
+    <label for="roll" class="font"> Roll No <span style="color:red">*</span></label>
+
+    <input class="form-control" type="text" placeholder="Type Here Your Roll" name="roll" required>
+
+   </div>
+
+   <!--Roll Section End -->
+
+
+<!--Reg Section Start -->
+   <div class="form-group">
+
+    <label for="reg" class="font"> Reg No <span style="color:red">*</span></label> </label>
+
+    <input class="form-control" type="text" placeholder="Type Here Your Name" name="reg" required>
+
+   </div>
+
+   <!--Reg Section End -->
+
+
+   <!-- Passing Year Section Start -->
+
+   <div class="form-group mt-4">
+
+    <label for="passing" class="font"> Passing Year <span style="color:red">*</span></label> </label>
+
+    <input class="form-control" type="text" placeholder="Type Here Your Passing Year" name="passing" required>
+
+   </div>
+
+    <!-- Passing Year Section End -->
+
+
+     <!-- Employer Section Start -->
+
+   <div class="form-group mt-4">
+
+    <label for="Employers" class="font"> Employers Information </label>
+
+
+    <div class="form-row mt-3 all">
+          
+         
+        <div class="form-group col-md-6">
+          <label for="organization">Name of Organization</label>
+          <input type="text" class="form-control" name="organi">
+        </div>
+
+        <div class="form-group col-md-2">
+          <label for="contact">Contact No</label>
+          <input type="text" class="form-control" name="contact">
+        </div>
+
+
+        <div class="form-group col-md-2">
+          <label for="designation">Designation</label>
+          <input type="text" class="form-control" name="designation">
+        </div>
+
+        <div class="form-group col-md-2">
+          <label for="month">Monthly Salary</label>
+
+          <input type="text" class="form-control" name="salary">
+          
+        </div>
+
+
+      </div>
+      
+
+    
+
+   </div>
+
+
+    <!-- Employer  Section End -->
+
+
+
+     <button class="btn btn-primary btn-block"> Submit </button>
+
+
+   </form>
+
+
+   <footer class="container foot">
+
+    <h4 class="text-center py-4">@Copyright 2020</h4>
+    
+   </footer>
+
+ 
+
+
+ <script src="js/jquery.min.js"></script>
+ <script src="js/popper.js"></script>
+ <script src="js/bootstrap.min.js"></script>
+
+
+    
+</body>
+</html>
